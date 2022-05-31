@@ -1,0 +1,61 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(to right, antiquewhite, #e2e2e2) ;
+   
+}
+.entete {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 2px;
+   
+}
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+.CENTER {
+    margin-top: 5%;
+    text-align: center;
+  
+}
+
+.center {
+    width: 10%;
+    border: 1px solid blue;
+}
+
+h1 {
+
+    width: 20%;
+    height: 20%;
+}
+.time {
+    position: absolute;
+    width: 100%;
+    font-size: 100px;
+    color: blue;
+    bottom: 25%;
+   text-align: center;
+
+}
+.time-p {
+    position: absolute;
+    width: 100%;
+    font-size: 70px;
+   
+    bottom: 50%;
+   text-align: center;
+}
